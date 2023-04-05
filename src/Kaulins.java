@@ -3,12 +3,16 @@ import java.util.Scanner;
 
 public class Kaulins {
 	static void mestKaulinu(int reizes) {
-		int skaitlis;
+		int skaitlis,maxSk=1;
 		Random rand = new Random();
 		for(int i=1; i<=reizes; i++) {
 			skaitlis = rand.nextInt(6)+1;	
 			System.out.println("Uzkrita skaitlis "+skaitlis);
+			if(skaitlis>maxSk) {
+				maxSk=skaitlis;
+			}
 		}
+		System.out.println("Lielakais skaitlis no metieniem bija "+maxSk);
 	}
 	
 	public static void main(String[] args) {
@@ -17,7 +21,7 @@ public class Kaulins {
 		do {
 		System.out.println("Cik reizes mest kauliņu?");
 		reizes = scan.nextInt();
-		}while(reizes<0);
+		}while(reizes<1);
 		mestKaulinu(reizes);
 		scan.close();
 	}
