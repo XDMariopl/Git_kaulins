@@ -7,8 +7,7 @@ Java metamais kaulins
 -[x] Izveidot GitHub kontu
 -[x] Izveidot GitHub kratuvi
 -[x] Lokalo projektu ievietošana GitHub
--[ ] Papildināt GitHub saturu lokalai lietošanai
+-[x] Papildināt GitHub saturu lokalai lietošanai
 -[ ] Co-Op programešana
--[ ] Jauns zars
+-[x] Jauns zars
 -[ ] Sapludinat zaru
-
